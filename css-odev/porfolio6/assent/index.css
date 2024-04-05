@@ -1,0 +1,17 @@
+* {
+  margin-inline: auto;
+  font-family: system-ui;
+}
+
+.container {
+  width: 920px;
+  margin-top: 354px;
+  color: white;
+}
+
+.kutu {
+  border: solid #094BAC;
+  width: 134px;
+  background-color: #094BAC;
+  border-radius: 32px;
+}

@@ -1,0 +1,35 @@
+* {
+  margin-inline: auto;
+  font-family: system-ui;
+}
+
+.arka {
+  background-color: #E0E8FF;
+}
+
+.container {
+  background-color: white;
+  border: solid white;
+  border-radius: 20px;
+  width: 450px;
+}
+.kutu {
+  background-color: #382AE1;
+  border: solid 1px;
+  width: 300px;
+  border-radius: 10px;
+}
+.text {
+  color: #717FA6;
+}
+.baslik {
+  color: #1F2E55;
+}
+
+.text2 {
+  color: #717FA6;
+}
+
+.text3 {
+  color: white;
+}

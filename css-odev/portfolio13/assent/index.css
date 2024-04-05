@@ -1,0 +1,31 @@
+* {
+  margin-inline: auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.a {
+  vertical-align: middle;
+}
+
+.b{
+  float: left;
+}
+
+.c {
+  float: right;
+}
+
+.kutu1 {
+  width: 1110px;
+  height: 387px;
+}
+
+.kutu2 {
+  width: 1110px;
+  height: 387px;
+}
+
+.kutu {
+  width: 1000px;
+  background-color: #ECF1F8;
+}

@@ -1,0 +1,31 @@
+* {
+  margin-inline: auto;
+  background-color: #ECF2F8;
+  font-family: system-ui;
+}
+.cotainer {
+  border: solid white 1px;
+  border-radius: 10px;
+  background-color: white;
+  width: 327px;
+}
+
+.text {
+  color: #48556A;
+  background-color: white;
+}
+
+.text2 {
+  color: #6E8098;
+  background-color: white;
+}
+
+.container2 {
+  background-color: #48556A;
+  border-radius: 10px;
+}
+
+.text3 {
+  background-color: #48556A;
+  color: #9DAEC2;
+}

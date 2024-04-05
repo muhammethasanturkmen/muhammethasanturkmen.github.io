@@ -1,0 +1,23 @@
+* {
+  margin-inline: auto;
+  font-family: system-ui;
+}
+.arka2 {
+  background-color: lightpink;
+}
+.baslik {
+  color: #301534;
+}
+.container {
+  border: black 10px;
+  border-radius: 16px;
+  background-color: white;
+  width: 600px;
+  padding: 40px;
+}
+.container details summary p {
+  color: #8B6990;
+}
+.ust {
+  width: 520px; 
+}

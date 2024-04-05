@@ -1,0 +1,21 @@
+* {
+  font-family: system-ui;
+  background-color: black;
+}
+
+.yazi {
+  color: white;
+}
+.resim {
+  margin-top: 36px;
+  margin-left: 680px;
+}
+
+.tus {
+  background-color: #DC3545;
+  color: white;
+  width: 170px;
+  border-radius: 5px;
+  padding-left: 16px;
+  height: 64px;
+}

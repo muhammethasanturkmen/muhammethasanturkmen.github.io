@@ -1,0 +1,24 @@
+* {
+  margin-inline: auto;
+  font-family: system-ui;
+}
+.body {
+  background-color: #F4D04E;
+}
+.container {
+  width: 450px;
+  border: solid black 1px;
+  border-radius: 20px;
+  background-color: white;
+  padding-left: 24px;
+}
+.box2 {
+  border: solid white 1px;
+  background-color: #F4D04E;
+  width: 65px;
+  border-radius: 4px;
+  margin: 12px;
+}
+.pag {
+  color: #7F7F7F;
+}

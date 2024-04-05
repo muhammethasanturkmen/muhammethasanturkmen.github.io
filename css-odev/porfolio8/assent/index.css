@@ -1,0 +1,31 @@
+* {
+  margin-inline: auto;
+  font-family: system-ui;
+}
+
+.cotainer {
+  width: 635px;
+}
+
+.resim {
+  width: 487px;
+  margin-top: 102px;
+  margin-left: 623px;
+}
+
+.kutu {
+  width: 445px;
+  margin-left: 165px;
+}
+
+.tus {
+  width: 175px;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  background-color: #0D6EFD;
+}
+
+.sayi {
+  color: #C4C4C4;
+}

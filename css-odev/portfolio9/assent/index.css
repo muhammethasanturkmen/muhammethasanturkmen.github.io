@@ -1,0 +1,28 @@
+* {
+  font-family: system-ui;
+}
+
+.arka {
+  background-image: linear-gradient(225deg, #A54343 0%, #E73535 100%);
+}
+.cotainer {
+  color: white;
+  width: 517px;
+  margin-top: 223px;
+  margin-left: 165px;
+}
+
+.foto {
+  margin-top: 133px;
+  margin-left: 537px;
+  width: 100px;
+}
+
+.fiyat {
+  border: solid white 1px;
+  color: white ;
+  border-radius: 10px;
+  width: 100px;
+  background-color: #E73535;
+
+}
