@@ -1,0 +1,455 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  margin-top: 32px;
+}
+
+.header a {
+  margin-top: 32px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-right: 34px;
+}
+
+.menu-link :hover {
+  color: #D87D4A;
+}
+
+.content {
+  width: 398px;
+  height: 346px;
+  align-content: center;
+  padding-left: 165px;
+  padding-top: 225px;
+  padding-bottom: 158px;
+}
+
+.back {
+  background-image: url("/galeri/Bitmap.png");
+  height: 729px;
+  width: 1440px;
+}
+
+.content h1 {
+  color: white;
+  padding-bottom: 24px;
+}
+
+.content p {
+  color: gray;
+  padding-bottom: 24px;
+}
+
+.content a button {
+  border: solid #D87D4A 1px;
+  background-color: #D87D4A;
+  color: white;
+  width: 160px;
+  height: 48px;
+  align-content: center;
+  align-items: baseline;
+  margin-top: 55px;
+}
+
+.content-see :hover {
+  background-color: #4C4C4C;
+}
+
+.hp {
+  margin-inline: auto;
+  width: 1110px;
+  margin-top: 120px;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 100px;
+}
+
+.hp-link :hover {
+  background-color: #D87D4A;
+}
+
+.aaaa {
+  position: relative;
+  left: 113px;
+  bottom: 61px;
+}
+
+.relative {
+  margin-right: 250px;
+}
+
+.headphones {
+  position: absolute;
+  border: solid #F1F1F1 1px;
+  border-radius: 10px;
+  background-color: #F1F1F1;
+  width: 350px;
+  height: 204px;
+  display: flex;
+  flex-direction: column;
+  align-content: baseline;
+  align-items: center;
+}
+
+.headphones p {
+  margin-top: 116px;
+  margin-bottom: 15px;
+}
+
+.headphones a {
+  text-decoration: none;
+  color: gray;
+}
+
+.bbbb {
+  position: relative;
+  left: 113px;
+  bottom: 61px;
+}
+
+.relative-two {
+  margin-right: 250px;
+}
+
+.speakers {
+  position: absolute;
+  border: solid #F1F1F1 1px;
+  border-radius: 10px;
+  background-color: #F1F1F1;
+  width: 350px;
+  height: 204px;
+  display: flex;
+  flex-direction: column;
+  align-content: baseline;
+  align-items: center;
+}
+
+.speakers p {
+  margin-top: 116px;
+  margin-bottom: 15px;
+}
+
+.speakers a {
+  text-decoration: none;
+  color: gray;
+}
+
+.cccc {
+  position: relative;
+  left: 113px;
+  bottom: 61px;
+}
+
+.earphones {
+  position: absolute;
+  border: solid #F1F1F1 1px;
+  border-radius: 10px;
+  background-color: #F1F1F1;
+  width: 350px;
+  height: 204px;
+  display: flex;
+  flex-direction: column;
+  align-content: baseline;
+  align-items: center;
+}
+
+.earphones p {
+  margin-top: 116px;
+  margin-bottom: 15px;
+}
+
+.earphones a {
+  text-decoration: none;
+  color: gray;
+}
+
+.zx9 {
+  margin-inline: auto;
+  display: flex;
+  background-color: #D87D4A;
+  width: 1110px;
+  height: 560px;
+  border-radius: 10px;
+}
+
+.zx9s {
+  width: 349px;
+  height: 303px;
+  margin-left: 100px;
+  margin-bottom: 124px;
+  margin-top: 150px;
+}
+
+.zx9s h1 {
+  color: white;
+  margin-bottom: 24px;
+}
+
+.zx9 p {
+  color: white;
+  margin-top: 40px;
+}
+
+.zx9s button {
+  border: solid black 1px;
+  background-color: black;
+  color: white;
+  width: 160px;
+  height: 48px;
+  align-content: center;
+  align-items: baseline;
+  margin-top: 55px;
+}
+
+.zx9 img {
+  width: 410px;
+  height: 493px;
+  margin-top: 67px;
+}
+
+.zx9s-link :hover {
+  background-color: gray;
+}
+
+.zx7 {
+  background-image: url("/galeri/Bitmap2.png");
+  margin-top: 48px;
+  margin-inline: auto;
+  width: 1110px;
+  border-radius: 10px;
+  height: 320px;
+}
+
+.zx7-link :hover {
+  color: white;
+  background-color: black;
+}
+
+.zx7s {
+  width: 200px;
+  height: 118px;
+  padding: 95px 100px;
+}
+
+.zx7s a img {
+ width: 130px;
+ margin-top: 32px;
+}
+
+.yx1 {
+  margin-inline: auto;
+  width: 1110px;
+  display: flex;
+  gap: 32px;
+  margin-top: 48px;
+}
+
+.yx1-link :hover {
+  background-color: black;
+}
+
+.yx1ea {
+  border: solid #F1F1F1 1px;
+  background-color: #F1F1F1;
+  width: 540px;
+  height: 320px;
+  border-radius: 7px;
+}
+
+.yx1 h2 {
+  padding-bottom: 40px;
+}
+
+.yxeab {
+  padding: 95px 100px;
+}
+
+.yxeab a img {
+  width: 130px;
+}
+
+.bring {
+  margin-inline: auto;
+  display: flex;
+  width: 1110px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.best {
+  width: 445px;
+  height: 295px;
+  margin-right: 125px;
+  margin-top: 147px;
+}
+
+.best h1 {
+  margin-bottom: 32px;
+}
+
+.best p {
+  color: gray;
+}
+
+.finsh {
+  background-color: black;
+  margin-inline: auto;
+  display: flex;
+}
+
+.yazi {
+  margin-top: 75px;
+  width: 540px;
+  margin-left: 165px;
+}
+
+.yazi img {
+  margin-bottom: 36px;
+}
+
+.yazi p {
+  color: gray;
+  margin-bottom: 56px;
+}
+
+.link a {
+  color: white;
+  text-decoration: none;
+}
+
+.link :hover {
+  color: #D87D4A;
+}
+
+.link {
+  margin-left: 165px;
+  margin-top: 75px;
+}
+
+.icom img {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+
+.icom {
+  margin-top: 105px;
+  margin-left: 395px;
+}
+
+.headphones-header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headphones-menu a {
+  color: white;
+  text-decoration: none;
+  margin-right: 34px;
+}
+
+.baslik {
+  background-color: black;
+  margin-bottom: 160px;
+}
+
+.baslik h1 {
+ padding: 195px 600px;
+ color: white;
+}
+
+.content-headphones {
+  margin-inline: auto;
+  width: 1110px;
+  display: flex;
+  margin-bottom: 160px;
+}
+
+.mark-yazi {
+  margin-left: 125px;
+  margin-top: 109px;
+}
+
+.mark-yazi h5 {
+  color: #D87D4A;
+  margin-bottom: 16px;
+}
+
+.mark-yazi h1 {
+  margin-bottom: 32px;
+}
+
+.mark-yazi p {
+  margin-bottom: 40px;
+}
+
+.mark-yazi button {
+  border: solid #D87D4A 1px;
+  background-color: #D87D4A;
+  color: white;
+  width: 160px;
+  height: 48px;
+  align-content: center;
+  align-items: baseline;
+  margin-top: 55px;
+}
+
+.mark-yazi a :hover {
+  background-color: #FBAF85;
+}
+
+.mark2-yazi {
+  margin-right: 125px;
+  margin-top: 109px;
+}
+
+.mark2-yazi a :hover {
+  background-color: #FBAF85;
+}
+
+.mark2-yazi h1 {
+  margin-bottom: 32px;
+}
+
+.mark2-yazi p {
+  margin-bottom: 40px;
+}
+
+.mark2-yazi button {
+  border: solid #D87D4A 1px;
+  background-color: #D87D4A;
+  color: white;
+  width: 160px;
+  height: 48px;
+  align-content: center;
+  align-items: baseline;
+  margin-top: 55px;
+}
+
+.headphones-header a {
+  margin-top: 32px;
+}
+
+.headphones-menu {
+  margin-top: 32px;
+}
+
+
