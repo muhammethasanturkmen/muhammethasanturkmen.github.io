@@ -1,0 +1,536 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media (min-width: 100px) {
+    .container {
+        margin-inline: auto;
+        padding: 16px 16px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-btn {
+        padding: 8px 27px;
+        background-color: black;
+        text-decoration: none;
+        color: white;
+        border-radius: 200px;
+        align-content: center;
+    }
+
+    .header-btn:hover {
+        background-color: #755CDE;
+        color: white;
+    }
+
+    .hero {
+        text-align: center;
+        padding: 29px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 45.36px;
+    }
+
+    .hero p {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: center;
+        color: #7A746E;
+    }
+
+    .content {
+        display: grid;
+        gap: 24px;
+        grid-template-areas:
+            "item1 item1"
+            "item2 item2"
+            "item3 item3"
+            "item4 item4"
+            "item5 item5";
+        margin-bottom: 100px;
+    }
+
+    .item1 {
+        grid-area: item1;
+    }
+
+    .item2 {
+        grid-area: item2;
+        display: flex;
+        gap: 24px;
+    }
+
+    .item3 {
+        grid-area: item3;
+    }
+
+    .item4 {
+        grid-area: item4;
+    }
+
+    .item5 {
+        grid-area: item5;
+    }
+
+    .cardamy {
+        margin-bottom: 100px;
+    }
+
+    .cardamyinside h1 {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 32.76px;
+        text-align: center;
+        color: black;
+    }
+
+    .cardamyinside p {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: center;
+        color: #7A746E;
+        margin-bottom: 24px;
+    }
+
+    .cardamyinside a {
+        padding: 8px 27px;
+        background-color: #EB7565;
+        color: white;
+        text-decoration: none;
+        border-radius: 150px;
+        margin-left: 72px;
+    }
+
+    .cardamyinside a:hover {
+        background-color: #F6A560;
+        color: white;
+    }
+
+    .blackCard {
+        height: 352px;
+        width: 343px;
+        align-content: center;
+        background-color: #030303;
+        border-radius: 9px;
+        margin-bottom: 40px;
+    }
+
+    .blackcardtext {
+        margin-inline: auto;
+        width: 295px;
+    }
+
+    .blackcardtext h1 {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 32.76px;
+        text-align: center;
+        color: #FFF7F0;
+        margin-bottom: 24px;
+    }
+
+    .blackcardtext p {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: center;
+        color: #FFF7F0;
+        margin-bottom: 35px;
+    }
+
+    .blackCard-a {
+        padding: 8px 27px;
+        background-color: #EB7565;
+        color: white;
+        text-decoration: none;
+        border-radius: 150px;
+        margin-left: 72px;
+    }
+
+    .blackCard-a:hover {
+        background-color: #F6A560;
+        color: white;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+
+
+@media (min-width: 768px) {
+
+    .conteiner {
+        margin-inline: auto;
+        width: 768px;
+        align-items: center;
+        padding: 34px 39px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .header-btn {
+        padding: 8px 27px;
+        background-color: black;
+        text-decoration: none;
+        color: white;
+        border-radius: 200px;
+        align-content: center;
+    }
+
+    .header-btn:hover {
+        background-color: #755CDE;
+        color: white;
+    }
+
+    .hero {
+        text-align: center;
+        padding: 29px;
+    }
+
+    .hero h1 {
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 55.44px;
+        text-align: center;
+
+    }
+
+    .hero p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: center;
+        color: #7A746E;
+    }
+
+    .content {
+        margin-inline: auto;
+        width: 690px;
+        display: grid;
+        grid-template-areas:
+         "item1 item1 item2 item2"
+         "item1 item1 item3 item3"
+         "item4 item4 item5 item5";
+        
+    }
+
+    .item1 {
+        grid-area: item1;
+    }
+
+    .item2 {
+        grid-area: item2;
+    }
+
+    .item3 {
+        grid-area: item3;
+    }
+
+    .item4 {
+        grid-area: item4;
+    }
+
+    .item5 {
+        grid-area: item5;
+    }
+
+    .cardamy {
+        display: flex;
+        margin-bottom: 100px;
+        gap: 69px;
+    }
+
+    .cardamy img {
+        position: relative;
+        top: -44px;
+        left: -35px;
+    }
+
+    .cardamyinside h1 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40.32px;
+        text-align: left;
+        color: black;
+    }
+
+    .cardamyinside p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: left;
+        color: #7A746E;
+        margin-bottom: 24px;
+    }
+
+    .cardamyinside a {
+        padding: 8px 27px;
+        background-color: #EB7565;
+        color: white;
+        text-decoration: none;
+        border-radius: 150px;
+        margin-left: 72px;
+    }
+
+    .cardamyinside a:hover {
+        background-color: #F6A560;
+        color: white;
+    }
+
+    .blackCard {
+        margin-inline: auto;
+        width: 690px;
+        height: 352px;
+        align-content: center;
+        background-color: #030303;
+        border-radius: 9px;
+        margin-bottom: 56px;
+    }
+
+    .blackcardtext {
+        margin-inline: auto;
+        width: 540px;
+    }
+
+    .blackcardtext h1 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40.32px;
+        text-align: center;
+        color: #FFF7F0;
+        margin-bottom: 24px;
+    }
+
+    .blackcardtext p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: center;
+        color: #FFF7F0;
+        margin-bottom: 35px;
+    }
+
+    .blackCard-a {
+        padding: 8px 27px;
+        background-color: #EB7565;
+        color: white;
+        text-decoration: none;
+        border-radius: 150px;
+        margin-left: 255px;
+    }
+
+    .blackCard-a:hover {
+        background-color: #F6A560;
+        color: white;
+    }
+
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+@media (min-width: 1110px) {
+    .conteiner {
+        margin-inline: auto;
+        align-items: center;
+        padding: 34px 39px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-btn {
+        padding: 8px 27px;
+        background-color: black;
+        text-decoration: none;
+        color: white;
+        border-radius: 200px;
+        align-content: center;
+    }
+
+    .header-btn:hover {
+        background-color: #755CDE;
+        color: white;
+    }
+
+    .hero {
+        margin-inline: auto;
+        text-align: center;
+        padding: 29px;
+        margin-bottom: 80px;
+        width: 1000px;
+    }
+
+    .hero h1 {
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 70.56px;
+        text-align: center;
+        color: #030303;
+        margin-bottom: 23px;
+
+    }
+
+    .hero p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: center;
+        color: #7A746E;
+    }
+
+    .content {
+        margin-inline: auto;
+        width: 1110px;
+        display: grid;
+        grid-template-areas:
+            "item1 item1 item2 item2 item3 item3"
+            "item1 item1 item4 item4 item5 item5";
+    }
+
+    .item1 {
+        grid-area: item1;
+    }
+
+    .item2 {
+        grid-area: item2;
+    }
+
+    .item3 {
+        grid-area: item3;
+    }
+
+    .item4 {
+        grid-area: item4;
+    }
+
+    .item5 {
+        grid-area: item5;
+    }
+
+    .cardamy {
+        margin-inline: auto;
+        width: 1110px;
+        display: flex;
+        margin-bottom: 100px;
+        gap: 69px;
+    }
+    
+    .cardamyinside {
+        width: 540px;
+    }
+
+    .cardamyinside h1 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50.4px;
+        text-align: left;
+        color: black;
+    }
+
+    .cardamyinside p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: left;
+        color: #7A746E;
+        margin-bottom: 24px;
+    }
+
+    .cardamyinside a {
+        padding: 14px 45px;
+        background-color: #EB7565;
+        color: white;
+        text-decoration: none;
+        border-radius: 150px;
+        margin-left: 72px;
+    }
+
+    .cardamyinside a:hover {
+        background-color: #F6A560;
+        color: white;
+    }
+
+    .blackCard {
+        margin-inline: auto;
+        display: flex;
+        width: 1110px;
+        align-content: center;
+        background-color: #030303;
+        border-radius: 9px;
+    }
+
+    .blackcardtext {
+        position: relative;
+        top: 81px;
+        left: 65px;
+    }
+
+
+    .blackcardtext h1 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50.4px;
+        color: #FFF7F0;
+        text-align: left;
+    }
+
+    .blackcardtext p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        color: #FFF7F0;
+        text-align: left;
+    }
+
+    .blackCard-a {
+        background-color: #EB7565;
+        color: white;
+        text-decoration: none;
+        height: 56px;
+        align-content: center;
+        border-radius: 150px;
+        position: relative;
+        top: 132px;
+        right: 95px;
+    }
+
+    .blackCard-a:hover {
+        background-color: #F6A560;
+        color: white;
+    }
+
+
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+}
