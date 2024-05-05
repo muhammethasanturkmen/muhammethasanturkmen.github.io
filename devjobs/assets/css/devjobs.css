@@ -336,13 +336,13 @@ span {
   .header {
     width: 1110px;
     margin-inline: auto; 
-   }
+  }
 
-   .tablet-search {
+  .tablet-search {
     padding: 16px 32.5px;
   }
 
-    .senior-text a:hover {
+  .senior-text a:hover {
     color: #6E8098;
   }
 
