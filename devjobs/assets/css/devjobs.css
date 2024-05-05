@@ -48,13 +48,21 @@ body {
   max-width: 1440px;
 }
 
-.header {
+
+
+.header-bg {
   background-image: url("/devjobs/assets/img/Triangle.svg");
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 90px;
+  padding-top: 32px;
+  padding-inline: 24px;
 }
+.modes {
+  float: right;
+}
+
 
 .input-loc {
   display: none;
@@ -64,21 +72,34 @@ body {
   display: none;
 }
 
+.desktop {
+  display: none;
+}
+
 .input {
   display: flex;
   width: 327px;
   background-color: white;
   align-items: center;
-  gap: 24px;
-  padding-block: 16px;
   border-radius: 5px;
   margin-inline: auto;
   position: relative;
   top: 40px;
+  justify-content: space-between;
+}
+.mobile-search {
+  padding: 16px;
 }
 
 .input-title {
-  padding-left: 24px;
+  width: 105px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.84px;
+  text-align: left;
+  margin-left: 24px;
+  margin-right: auto;
+
 }
 
 input {
@@ -118,6 +139,9 @@ input {
   flex-direction: column;
   gap: 17px;
 }
+.senior-text p {
+  color: #6E8098 !important;
+}
 
 .senior img {
   position: relative;
@@ -147,7 +171,7 @@ input {
   justify-content: center;
 }
 
-.only {
+span {
   display: none;
 }
 
@@ -157,11 +181,17 @@ input {
   padding: 16px 32px;
   border-radius: 4px;
   text-decoration: none;
+  margin-bottom: 62px;
 }
 
 .country  {
   padding-top: 24px;
   color: #5964E0 !important;
+  font-size: 14px !important;
+  font-weight: 700;
+  line-height: 17.36px;
+  text-align: left;
+
 }
 
 
@@ -173,8 +203,13 @@ input {
   display: none;
 }
 
+
 @media (width >=768px) {
 
+  .header {
+    width: 689px;
+    margin-inline: auto;
+  }
   
   .content {
     grid-template-columns: repeat(2,1fr);
@@ -190,12 +225,12 @@ input {
     font-weight: 700;
     line-height: 19.84px;
     text-align: left;
-
+    width: 108px;
   }
 
   .input-loc {
     display: block;
-    border-right: 1px solid #6E8098;
+    width: 135px;
   }
 
   .mobile-search {
@@ -204,6 +239,12 @@ input {
   
   .tablet-search {
     display: block;
+    padding: 16px 14px;
+    background-color: #5964E0;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin-right: 16px;
   }
 
   .path {
@@ -212,7 +253,6 @@ input {
   
   .input {
     width: 689px;
-    gap: 20px;
   }
 
   .loc-search {
@@ -227,11 +267,25 @@ input {
   .input-title {
     width: 135px;
     padding: 0;
+    margin: 0;
+
   }
 
   .senior {
     width: 339px;
   }
+
+  .vl {
+    border-left: 1px solid #6E8098 ;
+    opacity: 20%;
+    height: 80px;
+
+  }
+
+  .checkbox {
+    opacity: 20%;
+  }
+
 
 
 }
@@ -248,13 +302,47 @@ input {
   .senior {
     width: 350px;
   }
-  .only {
-    display: block;
+  span {
+    display: inline;
   }
 
   .input {
     width: 1110px;
   }
+
+  .input-title {
+    margin-right: 143px;
+    width: 271px;
+    display: none;
+  }
+  .desktop {
+    display: block;
+  }
   
+  .input-loc {
+    margin-right: 143px;
+  }
+
+  .header-bg {
+    border-radius: 0px 0px 0px 100px;
+    width: 1440px;
+    margin-inline: auto;
+  }
+
+  .input-checkbox {
+    width: 148px;
+  }
+
+  .header {
+    width: 1110px;
+    margin-inline: auto; 
+   }
+
+   .tablet-search {
+    padding: 16px 32.5px;
+
+
+  }
+
 
 }
