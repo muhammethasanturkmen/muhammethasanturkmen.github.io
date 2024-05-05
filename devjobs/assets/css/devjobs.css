@@ -340,8 +340,20 @@ span {
 
    .tablet-search {
     padding: 16px 32.5px;
+  }
 
+    .senior-text a:hover {
+    color: #6E8098;
+  }
 
+  .tablet-search:hover {
+    background-color: #939BF4;
+    color: white;
+  }
+
+  .footer a:hover {
+    background-color: #939BF4;
+    color: white;
   }
 
 
